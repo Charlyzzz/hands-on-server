@@ -1,5 +1,5 @@
 {
-  "name": "hands-on/server",
+  "name": "crypto-server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",

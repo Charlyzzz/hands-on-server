@@ -1,14 +1,14 @@
 {
-  "name": "koa-demo",
+  "name": "hands-on/server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "private": true,
   "scripts": {
     "start": "node server.js",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Erwin",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.7.0",

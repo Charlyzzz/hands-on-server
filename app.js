@@ -13,6 +13,10 @@ router.get('/health', (ctx, next) => {
   ctx.body = { status: "UP" };
 });
 
+router.get('/', (ctx, next) => {
+  ctx.body = { status: "UP" };
+});
+
 module.exports = {
   app: () => {
     app.use(logger());
